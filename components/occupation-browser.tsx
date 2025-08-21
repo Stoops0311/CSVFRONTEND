@@ -477,6 +477,10 @@ export default function OccupationBrowser() {
         ) : (
           <div className="h-full flex items-center justify-center">
             <div className="text-center space-y-3">
+              <div className="mb-8">
+                <div className="text-6xl font-bold text-black mb-2">Code</div>
+                <div className="text-2xl text-black">0110.10</div>
+              </div>
               <Info className="h-12 w-12 text-muted-foreground mx-auto" />
               <h2 className="text-xl font-semibold">Select an occupation</h2>
               <p className="text-muted-foreground max-w-sm">
