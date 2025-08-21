@@ -363,7 +363,7 @@ export default function OccupationBrowser() {
             <div className="flex items-start justify-between">
               <div>
                 <h1 className="text-3xl font-bold">{selectedOccupation.preferredLabel}</h1>
-                <p className="text-muted-foreground mt-1">Code: {selectedOccupation.code}</p>
+                <p className="text-black font-bold text-2xl mt-2">Code: {selectedOccupation.code}</p>
               </div>
               {selectedOccupation.status && (
                 <Badge variant={selectedOccupation.status === 'Released' ? 'default' : 'secondary'}>
