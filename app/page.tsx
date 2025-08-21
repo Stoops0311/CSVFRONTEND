@@ -1,5 +1,9 @@
 import OccupationBrowser from '@/components/occupation-browser';
 
 export default function Home() {
-  return <OccupationBrowser />;
+  return (
+    <div className="h-screen overflow-hidden">
+      <OccupationBrowser />
+    </div>
+  );
 }
